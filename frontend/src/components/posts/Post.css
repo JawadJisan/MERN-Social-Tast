@@ -1,0 +1,83 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border: 3px solid rgb(229, 226, 226);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.Post>img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.postReact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    gap: 1.5rem;
+}
+
+.postReact>div>button {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.detail {}
+
+.postBy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBy>p {
+    font-size: 10px;
+}
+
+.postBy>p>span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comment-icon {
+    cursor: pointer;
+    /* Add styling for your comment icon */
+}
+
+.comment-input {
+    margin-top: 10px;
+}
+
+.comment-input textarea {
+    width: 100%;
+    height: 80px;
+    resize: vertical;
+    /* Add any additional styling for your comment input field */
+}
+
+.comment-input button {
+    margin-top: 10px;
+    /* Add any additional styling for your post button */
+}
+
+.comment {
+    text-align: center;
+    background-color: rgb(237, 232, 232);
+    padding: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+}

@@ -1,0 +1,86 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.navIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profileDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navIcons>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profileIMG {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.r-button {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    /* background-color: #f1f1f1; */
+    padding: 0 20px;
+  }
+  
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navbar__logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar__dropdown {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .navbar__dropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__dropdown li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .navbar__dropdown li:hover {
+    background-color: #7daa0b;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  

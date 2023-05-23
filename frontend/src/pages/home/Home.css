@@ -1,0 +1,38 @@
+/* .Home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+} */
+.Home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* Adjust the sizes as needed */
+    grid-gap: 30px;
+    /* Adjust the gap between columns */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 766px) {
+
+    .Home {
+        grid-template-columns: 1fr;
+        /* Display only one column in mobile */
+    }
+
+    .column1,
+    .column3 {
+        display: none;
+        /* Hide the first and third columns in mobile */
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .Home {
+        grid-template-columns: 0fr 2fr 1fr;
+    }
+}

@@ -1,0 +1,45 @@
+.postHover:hover {
+    background-color: rgb(226, 218, 234);
+}
+
+.postHover {
+    transition: transform 0.3s ease;
+}
+
+.postHover:hover {
+    transform: scale(1.1);
+}
+
+.postHover:hover .deletePostBtn {
+    display: block;
+}
+
+.deleteBTn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deletePostBtn {
+    display: none;
+}
+
+.postReact2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    gap: 1.5rem;
+}
+
+.postReact2>div>button {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.previwAvater>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.previwAvater>img {
+    width: 50px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
